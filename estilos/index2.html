@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola mundo en css</title>
+    <style>
+        /*primer selector es por nombre de etiqueta*/
+        /*selector id # */
+        /*selector clase  .  */
+        div{
+            background-color: black;
+        }
+        h2{
+            color: red;
+        }
+        #Titulo{  
+            color: white;
+        }
+        .caja{
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+        .caja:first-child{
+            background-color: salmon;
+
+        }
+        .caja:last-child{
+            background-color: skyblue;
+        }
+        .caja:nth-child(4){
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: #CCC;color: aqua">
+        Mi Div
+    </div>
+    <div>
+        Mi div 2
+        <h2>Hola</h2>
+        <h2 id="Titulo">Hola</h2>
+    </div>
+    <div>
+        <div class="caja">Caja1</div>
+        <div class="caja" style="background-color: purple;">Caja2</div>
+        <div class="caja">Caja3</div>
+        <div class="caja">Caja3</div>
+        <div class="caja">Caja3</div>
+        <div class="caja">Caja3</div>
+    </div>
+    
+</body>
+</html>
