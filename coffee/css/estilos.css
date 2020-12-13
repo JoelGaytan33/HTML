@@ -142,14 +142,15 @@ section#main .bola img{
 }
 #contact fieldset label{
     display: block;
+    outline-color: #19a49c;
     width: 100%;
 }
-#contact fieldset input, #contact fieldset textarea{
+#contact fieldset input{
     display: block;
-    width: 90%;
+    width: 100%;
     border: 1px solid #eeeeee;
     padding: 5px;
-    outline-color: #eeeeee;
+    outline-color: #19a49c;
     height: 25px;
 }
 #contact fieldset button{
@@ -159,6 +160,7 @@ section#main .bola img{
     background-color: #19a49c;
     color: white;
     border: none;
+
 }
 
 footer{

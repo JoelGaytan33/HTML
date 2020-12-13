@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #99b2dd;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    background-color: #7d0909;
+    width: 100%;
+    height: 130px;
+}
+#logo img{
+    width: 50px;
+    height: 100px;
+    padding-top: 10px;
+    float:left;
+    padding-left: 10px;
+}
+header > nav{
+    float: right;
+    padding-top: 60px;
+    font-size: 17px;
+    width: 40%;
+}
+header nav > ul > li{
+    float: left;
+    width: 20%;
+    list-style: none;
+}
+header nav > ul > li > a{
+    text-decoration: none;
+    color: #1d1d11;
+    padding-right: 10%;
+
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: 1s ease-in all;
+}
+.field {
+    display:flex;
+    position:realtive;
+    margin:10px auto;
+    width:35%;
+    flex-direction:row;
+}
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:1.2em 'Montserrat Alternates';
+}
+.field>input[type=text] {
+    flex:1;
+    padding:0.6em;
+    border:0.2em solid #7d0909;
+  }
+.field>button {
+    padding:0.6em 0.8em;
+    background-color: #7d0909;
+    color:white;
+    border:none;
+}
+#info{
+    text-align: justify;
+    height: 190px;
+    background-color: #b8cffc;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;   
+}
+#apartados .apa{
+    float: left;
+    padding-left: 10px;
+    
+}
+#apartados{
+    height: 270px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: #b8cffc;
+}
+#apartados .apa img{
+    padding-left: 30px;
+    padding-top: 20px;
+    height: 200px;
+    width: 250px;
+}
+#apartados .apa img{
+    text-decoration: none;
+    color: black;
+}
+#informacion{
+    height: 280px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #b8cffc;
+}
+#informacion div{
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+    margin-left: 35px;
+}
+ h2{
+    margin-top: -55px;
+    margin-left: 100px;
+    font-style: italic;
+}
+#signup fieldset{
+    border: none;
+    padding: 3.5px;
+    margin-left: 60px;
+}
+#signup fieldset label{
+    display: block;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+    
+#signup fieldset input, #signup fieldset textarea{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    border: 3px solid #7d0909;
+    padding: 1px;
+    height: 18px;
+
+}
+#signup fieldset button{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #7d0909;
+    color: white;
+    border-color: bl;
+}
+footer{
+    text-align: left;
+    padding: 5px;
+    margin-top: 50px;
+    display: block;
+    height: 70px;
+    background-color: #3f5170;
+    
+}

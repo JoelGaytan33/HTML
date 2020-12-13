@@ -2,15 +2,17 @@
     body{
         background-color: red;
     }
+    .col {
+        width: 100%;
+        margin-left: 0%;
+    }
 
 }
 @media screen and (min-width: 768px){
     body{
         background-color: green;
     }
-    .col {
-        width: 100%;
-    }
+    
 
 }
 @media screen and (min-width: 992px){
@@ -19,6 +21,9 @@
     }
     .col{
         width: 50%;
+    }
+    #new .columna3{
+        width: 25%;
     }
 
 }
